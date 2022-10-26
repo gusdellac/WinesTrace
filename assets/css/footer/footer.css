@@ -1,0 +1,19 @@
+.footer{
+    height: 150px;
+    background-color: #9e9d9d;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    text-align: center;
+}
+
+.poweredText{
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 800px) {
+	.footer{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
