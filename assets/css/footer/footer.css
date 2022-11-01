@@ -1,6 +1,6 @@
 .footer{
-    height: 130px;
-    background-color: #2b292992;
+    height: 100px;
+    background-color: #212121;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     align-items: center;
@@ -25,5 +25,9 @@
 	.footer{
         display: grid;
         grid-template-columns: 1fr;
+    }
+
+    .powered__content-text{
+        font-size: 1rem;
     }
 }
