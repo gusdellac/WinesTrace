@@ -2,7 +2,7 @@
    
 }
 .cards{
-    background-color: #EAEAEA;
+    background-color: #c7c7c7;
     padding: 10%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -14,12 +14,32 @@
 
 }
 
+.card__text{
+   
+    
+}
+
 .cards__content-imagen{
     padding: 20px;
     width: 350px;
+    height: 233px;
     border-radius: 50px;
+    transition: 0.5s;
+}
+
+.cards__content-imagen:hover{
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+    opacity: 0.9;
+}
+
+/* .cards_text-area{
     
 }
+.cards__text{
+    position: absolute;
+    opacity: 1;
+} */
 
 @media screen and (max-width: 1350px) {
 	.cards{
@@ -59,6 +79,7 @@
     .cards__content-imagen{
         padding: 0;
         width: 280px;
+        height: 180px;
         border-radius: 30px;
         
     }

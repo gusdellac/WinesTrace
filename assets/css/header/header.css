@@ -9,10 +9,13 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.header_logo{
+.header__logo{
+    text-align: end;
+}
+.header_logo-icono{
     width: 70px;
-    padding: 20px 0 0 30px;
-    /* text-align: center; */
+    padding: 20px 10px 10px 30px;
+    text-align: end;
 }
 
 .header_titulo{
@@ -29,22 +32,92 @@
 
 .header_menuNav{
     padding: 10px 10px 10px 10px;
-    text-align: end;
+    text-align: start;
 }
 
 .header_menuNav-menuIcon{
-    width: 45px;
-    height: 40px;
+    font-size: 32px;
+    color: #1111119e;
 }
 
 .header_menuNav-menuIcon:hover{
     cursor: pointer;
 }
 
+#btn-menu{
+    display: none;
+}
+
+.container-menu{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#btn-menu:checked ~ .container-menu{
+    opacity: 1;
+    visibility: visible;
+}
+
+.cont-menu{
+    width: 100%;
+    max-width: 250px;
+    background: #323232c7;
+    height: 300px;
+    position: relative;
+    border-bottom-right-radius: 20px;
+    transition: all 500ms ease;
+    transform: translateX(-100%);
+}
+
+#btn-menu:checked ~ .container-menu .cont-menu{
+    transform: translateX(0);
+}
+
+.cont-menu nav{
+    transform: translateY(15%);
+}
+
+.cont-menu nav a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #c7c7c7;
+    border-left: 5px solid transparent;
+    transition: all 400ms ease;
+}
+
+.cont-menu nav a:hover{
+    border-left: 3px solid #c3c3c3;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #7a7a7a;
+}
+
+.cont-menu label{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    color: rgb(184, 184, 184);
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+
+
 @media screen and (max-width: 500px) {
     .header{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
         
         /* flex-direction: row;
@@ -52,23 +125,22 @@
         height: 120px;
     }
 
-    .header_logo{
+    .header_logo-icono{
         display: none;
     }
 
     .header_titulo{
-        padding: 0;
-        
-      
-        
+        padding: 0;  
     }
 
     .header_menuNav{
         padding: 0;
-        
     }
 
+}
 
-
-    
+@media screen and (max-height: 800px) {
+    .cont-menu{
+        /* height: 50%; */
+    }
 }

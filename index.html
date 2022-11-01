@@ -13,23 +13,45 @@
     <link rel="stylesheet" href="./assets/css/banner.css">
     <link rel="stylesheet" href="./assets/css/cards/cards.css">
     <link rel="stylesheet" href="./assets/css/footer/footer.css">
+    <link rel="stylesheet" href="./assets/css/sobreNosotros/sobreNosotros.css">
     <title>WinesTrace</title>
 </head>
 <body>
     <!--section banner y header-->
     <section class="banner">
         <header class="header">
-            <img class="header_logo" src="./assets/icons/Logo2.png">
-            <h1 class="header_titulo">WinesTrace</h1>
             <div class="header_menuNav">
-                <img class="header_menuNav-menuIcon" src="./assets/icons/menuNav.png">
+                <label for="btn-menu" class="header_menuNav-menuIcon">☰</label>
             </div>
+            <h1 class="header_titulo">WinesTrace</h1>
+            <div class="header__logo">
+                <img class="header_logo-icono" src="./assets/icons/Logo2.png">
+            </div>
+            
+            
+            <input type="checkbox" id="btn-menu">
+            <div class="container-menu">
+                <div class="cont-menu">
+                    <nav>
+                        <a href="#">Iniciar Sesión</a>
+                        <a href="#">Registrarse</a>
+                        <a href="#">Sobre Nosotros</a>
+                        <a href="#">Contacto</a>
+                    </nav>
+                    <label for="btn-menu">X</label>
+                </div>
+            </div>
+
         </header>    
     </section>
     
     <main class="container">
         <section class="cards">
             <div class="cards__content">
+                <!-- <div class="cards_text-area">
+                    <h2 class="cards__text">Hola</h2>
+                </div> -->
+                
                 <img class="cards__content-imagen" src="./assets/img/uncorking-bottle-of-red-wine.jpg" alt="">
             </div>
             <div class="cards__content">
@@ -47,6 +69,28 @@
             <div class="cards__content">
                 <img class="cards__content-imagen" src="./assets/img/glass-of-red-wine-and-bottle-on-bar-counter.jpg" alt="">
             </div>
+        </section>
+        <section class="sobreNosotros">
+            <p class="sobreNosotros__text">¿En qué reino, en qué siglo, bajo qué silenciosa
+                conjunción de los astros, en qué secreto día
+                que el mármol no ha salvado, surgió la valerosa
+                y singular idea de inventar la alegría?
+                
+                Con otoños de oro la inventaron. El vino
+                fluye rojo a lo largo de las generaciones
+                como el río del tiempo y en el arduo camino
+                nos prodiga su música, su fuego y sus leones.
+            </p>
+            <p class="sobreNosotros__text">En la noche del júbilo o en la jornada adversa
+                exalta la alegría o mitiga el espanto
+                y el ditirambo nuevo que este día le canto
+                
+                otrora lo cantaron el árabe y el persa.
+                Vino, enséñame el arte de ver mi propia historia
+                como si ésta ya fuera ceniza en la memoria.
+            </p>
+
+
         </section>
     </main>
     <footer class="footer">

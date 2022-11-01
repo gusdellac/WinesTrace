@@ -13,6 +13,12 @@
 
 .socialMedia__content-icono{
     width: 30px;
+    transition: 0.5s;
+}
+
+.socialMedia__content-icono:hover{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.08);
 }
 
 @media screen and (max-width: 800px) {
