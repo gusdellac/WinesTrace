@@ -1,6 +1,6 @@
 .footer{
     height: 100px;
-    background-color: #212121;
+    background-color: #616161;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     align-items: center;
@@ -8,6 +8,7 @@
 }
 
 .powered__content-text{
+    color: black;
     font-size: 1.1rem;
 }
 

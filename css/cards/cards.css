@@ -1,9 +1,10 @@
 
 .cards{
     background-color: #BDBDBD;
-    padding: 10%;
+    padding: 7%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 50px;
     text-align: center;
 }
 
@@ -75,7 +76,7 @@
     .cards__content-imagen{
         padding: 0;
         width: 280px;
-        height: 180px;
+        height: 190px;
         border-radius: 30px;
         
     }
