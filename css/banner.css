@@ -3,6 +3,23 @@
     width: 100%;
     height: 100vh;
 } */
+.carousel__banner-primero{
+    background: url(../assets/img/img-banner/the-one-wine-glass-with-red-wine-against-white.jpg) no-repeat center / cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.carousel__banner-segundo{
+    background: url(../assets/img/img-banner/sun-setting-behind-the-mountains-and-covering-the-vineyard-with-the-light.jpg) no-repeat center / cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.carousel__banner-tercero{
+    background: url(../assets/img/img-banner/uncorking-bottle-of-red-wine.jpg) no-repeat center / cover;
+    width: 100%;
+    height: 100vh;
+}
 
 .carousel-indicators{
     z-index: 0;
@@ -30,6 +47,6 @@
     .carousel-inner> .carousel-item> img {
     
         max-width: 100vw;
-        height: 50vh; 
+        height: 100vh; 
     }
 }
