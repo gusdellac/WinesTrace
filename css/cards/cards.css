@@ -1,6 +1,7 @@
 
 .cards{
-    background-color: #ffffff;
+    padding: 5px;
+    background-color: #F5F5F5;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
