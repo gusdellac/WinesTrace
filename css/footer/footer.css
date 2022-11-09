@@ -13,15 +13,25 @@
     font-size: 1.1rem;
 }
 
+.socialMedia__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
 .socialMedia__content-icono{
-    width: 30px;
-    transition: 0.5s;
+    fill: #212121;
 }
 
 .socialMedia__content-icono:hover{
-    -webkit-transform: scale(1.05);
-    transform: scale(1.08);
+    fill: #6f0303;
 }
+
+.socialMedia__content-icono-instagram:hover{
+    fill: #6f0303;
+}
+
+
 
 @media screen and (max-width: 800px) {
 	.footer{

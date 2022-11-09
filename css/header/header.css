@@ -47,6 +47,10 @@
     cursor: pointer;
 }
 
+.fillIconSvg:hover{
+    fill: #FAFAFA;
+}
+
 #btn-menu{
     display: none;
 }
@@ -116,8 +120,13 @@
     width: 25px;
 }
 
+.backgroundFlechaCierre:hover{
+    fill: #424242;
+}
 
-
+.ver{
+    height: 500px;
+}
 
 
 @media screen and (max-width: 500px) {
