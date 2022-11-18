@@ -76,7 +76,7 @@
     width: 100%;
     max-width: 250px;
     background: #212121;
-    height: 310px;
+    height: 340px;
     position: relative;
     border-bottom-right-radius: 20px;
     transition: all 500ms ease;
@@ -94,7 +94,7 @@
 .header__menuDesplegable-items nav a{
     display: block;
     text-decoration: none;
-    padding: 20px;
+    padding: 23px;
     color: #BDBDBD;
     border-left: 5px solid transparent;
     transition: all 400ms ease;
@@ -120,12 +120,8 @@
     width: 25px;
 }
 
-.backgroundFlechaCierre:hover{
+.backgroundFlechaCierre:active{
     fill: #424242;
-}
-
-.ver{
-    height: 500px;
 }
 
 

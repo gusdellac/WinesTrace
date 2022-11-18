@@ -4,7 +4,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    
+    gap: 5px;
+    padding: 5px;
 }
 
 .cards__content{
@@ -15,6 +16,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
     transition: 0.5s;
 }
 

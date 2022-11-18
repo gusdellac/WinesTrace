@@ -1,0 +1,11 @@
+.iframeUbicacion{
+    background-color: #F5F5F5;
+    padding: 5px;
+}
+
+.iframeUbicacion__mapa{
+    padding: 10px 0 10px 0;
+    width: 100%;
+    border-radius: 20px;
+
+}
