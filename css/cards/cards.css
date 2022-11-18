@@ -8,6 +8,16 @@
     padding: 5px;
 }
 
+.cards-titulo{
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 35px 0 35px 0;
+}
+.cards-titulo__titulo{
+    font-size: 2.13rem;
+    
+}
+
 .cards__content{
     background: url(../../assets/img/front-view-bottle-of-wine-on-black-background.jpg) center / cover no-repeat;
     grid-column: 1 / 2;
@@ -52,23 +62,24 @@
 
 .cards_titulo{
     color: #E0E0E0;
-    background-color: #212121;
+    background-color: rgba(33, 33, 33, 0.6);
     width: 100%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 10px;
     text-align: center;
-    display: none;
+    /* display: none; */
+    display: block;
 }
 
-.cards_titulo-active{
+/* .cards_titulo-active{
     color: #E0E0E0;
-    background-color: #212121;
+    background-color: rgba(33, 33, 33, 0.6);
     width: 100%;
-    font-size: 2rem;
+    font-size: 1.7rem;
     padding: 10px;
     text-align: center;
     display: block;
-}
+} */
 
 
 
@@ -136,6 +147,12 @@
 }
 
 @media screen and (max-width: 950px) {
+    .cards-titulo__titulo{
+        font-size: 1.9rem;  
+    }
+    .cards_titulo{
+        font-size: 1.4rem;
+    }
 	/* .cards{
         padding: 10%;
         display: grid;
@@ -146,6 +163,12 @@
 }
 
 @media screen and (max-width: 450px) {
+    .cards-titulo__titulo{
+        font-size: 1.5rem;  
+    }
+    .cards_titulo{
+        font-size: 1.1rem;
+    }
     /* .cards{
         padding: 20px 5px 5px 5px;
         display: grid;
