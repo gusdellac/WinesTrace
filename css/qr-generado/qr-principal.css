@@ -1,9 +1,11 @@
-.contenedor {
+.qr-content {
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
     align-items: center;
     align-content: center;
     height: 100vh;  
+    padding-top: 100px;
 }
 
 .qr-generado{
@@ -18,15 +20,28 @@
     align-items: center;
     font-weight: 400;
     font-size: 1.8rem;
-    padding:30px 0 30px 0;
+    padding:30px 20px 30px 20px;
 }
 
 .generadorQR{
-    padding:30px 0 30px 0;
+    padding:30px 10px 30px 10px;
 }
 
 .qr-generado__subtitulo{
     font-weight: 400;
     font-size: 1.5rem;
-    padding:30px 0 30px 0;
+    padding:30px 20px 30px 20px;
+}
+
+
+@media screen and (max-width: 750px) {
+    .qr-generado__titulo{
+        font-size: 1.5rem;
+        text-align: center;
+
+    }
+    .qr-generado__subtitulo{
+        font-size: 1.1rem;
+        text-align: center;
+    }
 }

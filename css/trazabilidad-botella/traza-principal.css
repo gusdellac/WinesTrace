@@ -1,5 +1,5 @@
 
-.contenedor{
+.descripcion-content{
     display: grid;
     height: 100vh;
     grid-template-columns: 2fr 1fr;
@@ -44,5 +44,44 @@
 }
 
 .botella-content__imagen{
+    padding: 10px;
     border-radius: 15px;
 }
+
+@media screen and (max-width: 1300px) {
+    .descripcion-content{
+        height: auto;
+        grid-template-columns: 1fr;
+        padding: 150px 20px 20px 20px;
+    }
+
+    .botella-content__imagen{
+        width: 250px;
+        height: 450px;
+    }
+
+    .descripcionVino{
+        width: 80%;
+    }
+    
+    .descripcionVino__titulo{
+        font-size: 1.8rem;
+    }
+    
+    .descripcionVino__parrafo{
+        font-size: 1rem;
+    }
+
+    .descripcionVino__lista-trazabilidad{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-height: 1100px) {
+    .descripcion-content{
+        height: 100vh;
+        grid-template-columns: 1fr;
+        padding: 50px 20px 20px 20px;
+    }
+}
+

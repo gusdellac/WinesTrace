@@ -80,8 +80,9 @@
     width: 100%;
     max-width: 250px;
     background: #212121;
-    height: 430px;
+    height: 100%;
     position: relative;
+    border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     transition: all 500ms ease;
     transform: translateX(-100%);
