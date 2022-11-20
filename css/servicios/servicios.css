@@ -5,11 +5,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
+    align-content: space-evenly;
     justify-items: center;    
     padding: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
-
 }
 
 .servicios__content{
