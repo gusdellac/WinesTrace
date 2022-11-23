@@ -7,6 +7,9 @@ body::-webkit-scrollbar-thumb{
     background: #616161;
     border-radius: 8px;
     border-right: 2px solid  rgba(33, 33, 33, 0.95);
-    border-left: 2px solid  rgba(33, 33, 33, 0.95);
-    
+    border-left: 2px solid  rgba(33, 33, 33, 0.95);  
+}
+
+body::-webkit-scrollbar-thumb:hover{
+    background: #9e9e9ea8; 
 }

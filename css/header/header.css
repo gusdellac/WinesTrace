@@ -11,13 +11,15 @@
 }
 
 .header__logo{
-    text-align: end;
-    display: none;
+    display: flex;
+    padding: 0 30px 10px 0;
+    align-items: center;
+    justify-content: end;
 }
 .header__logo-icono{
-    width: 70px;
-    padding: 20px 10px 10px 30px;
-    text-align: end;
+    width: 60px;
+    height: 60px;
+    display: none;
 }
 
 .header__titulo{

@@ -85,3 +85,9 @@
     }
 }
 
+@media screen and (max-height: 800px) {
+    .botella-content__imagen{
+        padding-top: 100px;
+    }
+}
+
