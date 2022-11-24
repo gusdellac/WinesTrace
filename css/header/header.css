@@ -1,8 +1,8 @@
 
 .header{
     height: 100px;
-    background: rgba(33, 33, 33, 0.95);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+    background: var(--background-header);
+    box-shadow: 0px 4px 4px var(--header-box-shadow);  
     position: fixed;  
     width: 100vw;
     display: grid;
@@ -28,15 +28,15 @@
     font-weight: 200;
     font-size: 2.73rem;
     line-height: 67px;
-    color: #9E9E9E;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.346);
+    color: var(--header-gris-claro);
+    text-shadow: 0px 4px 4px var(--header-text-shadow);
     text-align: center;
     
 }
 
 .header__titulo-ancla{
     text-decoration: none;
-    color: #9E9E9E;
+    color: var(--header-gris-claro);
 }
 
 .header__menuNav{
@@ -46,15 +46,15 @@
 
 .header__menuNav-menuIcon{
     font-size: 30px;
-    color: #9E9E9E;
+    color: var(--header-gris-claro);
 }
 
 .header__menuNav-menuIcon:hover{
     cursor: pointer;
 }
 
-.fillIconSvg:hover{
-    fill: #FAFAFA;
+.header__menuNav-menuIcon-hover:hover{
+    fill: var(--header-menu-icon-hover);
 }
 
 #btn-menu{
@@ -63,7 +63,7 @@
 
 .header__menuDesplegable{
     position: absolute;
-    background: rgba(0, 0, 0, 0.5);
+    background: var(--background-menu-desplegable-full-screen);
     width: 100%;
     height: 100vh;
     top: 0;
@@ -81,7 +81,7 @@
 .header__menuDesplegable-items{
     width: 100%;
     max-width: 250px;
-    background: #212121;
+    background: var(--background-menu-desplegable);
     height: 100%;
     position: relative;
     border-top-right-radius: 20px;
@@ -102,16 +102,16 @@
     display: block;
     text-decoration: none;
     padding: 23px;
-    color: #BDBDBD;
+    color: var(--menu-desplegable-text-items);
     border-left: 5px solid transparent;
     transition: all 400ms ease;
 }
 
 .header__menuDesplegable-items nav a:hover{
-    border-left: 3px solid #E0E0E0;
+    border-left: 3px solid var(--menu-desplegable-text-items-border-left);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    background: #616161;
+    background: var(--background-menu-desplegable-text-items);
 }
 
 .header__menuDesplegable-items label{
@@ -128,7 +128,7 @@
 }
 
 .backgroundFlechaCierre:active{
-    fill: #424242;
+    fill: var(--menu-desplegable-flecha-cierre-fill-activate);
 }
 
 
@@ -155,7 +155,6 @@
 
     .header__menuNav-menuIcon{
         font-size: 30px;
-        color: #9E9E9E;
     }
 
 }

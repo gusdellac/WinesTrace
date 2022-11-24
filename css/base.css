@@ -1,0 +1,48 @@
+:root{
+    /*header*/
+    --background-header:  rgba(33, 33, 33, 0.95);
+    --background-menu-desplegable: #212121;
+    --background-menu-desplegable-full-screen: rgba(0, 0, 0, 0.5);
+    --background-menu-desplegable-text-items: #616161;
+    --header-gris-claro: #9E9E9E;
+    --header-menu-icon-hover: #FAFAFA;
+    --header-box-shadow: rgba(0, 0, 0, 0.25);
+    --header-text-shadow: rgba(0, 0, 0, 0.346);
+
+    --menu-desplegable-background-full-window: rgba(0, 0, 0, 0.5);
+    --menu-desplegable-text-items: #BDBDBD;
+    --menu-desplegable-text-items-border-left: #E0E0E0;
+    --menu-desplegable-flecha-cierre-fill-activate: #424242; 
+
+    /*main*/
+    --background-servicios: #F5F5F5;
+    --servicios-text: #212121;
+    --servicios-text-icon-fill: #616161;
+    --servicios-text-icon-fill-hover: #6f0303;
+    
+    --background-cards: #F5F5F5;
+    --cards-titulo-principal: #212121;
+    --cards-titulo: #E0E0E0;
+
+    --background-iframe: #F5F5F5;
+    --background-traza-descripcion: #F5F5F5;
+    --traza-descripcion-text: #212121; 
+
+    /*footer*/
+    --background-footer: #E0E0E0;
+    --footer-text-powered: #212121;
+    --footer-social-media-fill: #212121;
+    --footer-social-media-fill-hover: #6f0303;
+   
+    /*loader*/
+    --background-loader-full-screen: #212121; 
+    
+    /*scroll-bar*/
+    --background-scroll-bar: rgba(33, 33, 33, 0.95);
+    --background-scroll-bar-thumb: #616161;
+    --border-scroll-bar-thumb: rgba(33, 33, 33, 0.95);
+    --background-scroll-bar-thumb-hover:#9e9e9ea8;
+
+    /*fonts*/
+    --montserrat: "Montserrat", sans-serif;
+}

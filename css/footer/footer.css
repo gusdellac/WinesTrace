@@ -1,6 +1,6 @@
 .footer{
     height: 100px;
-    background-color: #E0E0E0;
+    background-color: var(--background-footer);
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     align-items: center;
@@ -9,7 +9,7 @@
 
 .powered__content-text{
     font-weight: 600;
-    color: black;
+    color: var(--footer-text-powered);
     font-size: 1.1rem;
 }
 
@@ -20,16 +20,14 @@
     
 }
 .socialMedia__content-icono{
-    fill: #212121;
+    fill: var(--footer-social-media-fill);
 }
 
 .socialMedia__content-icono:hover{
-    fill: #6f0303;
+    fill: var(--footer-social-media-fill-hover);
 }
 
-.socialMedia__content-icono-instagram:hover{
-    fill: #6f0303;
-}
+
 
 
 

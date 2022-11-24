@@ -1,7 +1,7 @@
 .servicios{
     width: 100%;
     height: 850px;
-    background-color: #F5F5F5;
+    background-color: var(--background-servicios);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
@@ -25,12 +25,13 @@
     width: 60%;
     font-size: 1.6rem;
     text-align: center;
+    color: var(--servicios-text);
 }
 .servicios__text_icon{
-    fill: #616161;
+    fill: var(--servicios-text-icon-fill);
 }
 .servicios__text_icon:hover{
-    fill: #6f0303;
+    fill: var(--servicios-text-icon-fill-hover);
 }
 
 @media screen and (max-width: 1150px) {

@@ -1,6 +1,6 @@
 
 .cards{
-    background-color: #F5F5F5;
+    background-color: var(--background-cards);
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -9,11 +9,12 @@
 }
 
 .cards-titulo{
-    background-color: #F5F5F5;
+    background-color: var(--background-cards);
     text-align: center;
     padding: 35px 0 35px 0;
 }
 .cards-titulo__titulo{
+    color: var(--cards-titulo-principal);
     font-size: 2.13rem;
     
 }
@@ -61,7 +62,7 @@
 }
 
 .cards_titulo{
-    color: #E0E0E0;
+    color: var(--cards-titulo);
     background-color: rgba(33, 33, 33, 0.6);
     width: 100%;
     font-size: 1.5rem;

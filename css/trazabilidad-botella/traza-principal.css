@@ -8,7 +8,7 @@
     justify-content: space-around;
     
     padding: 20px;
-    background: #F5F5F5;
+    background: var(--background-traza-descripcion);
    
 }
 
@@ -19,19 +19,19 @@
 }
 
 .descripcionVino__titulo{
-    color: #212121;
+    color: var(--traza-descripcion-text);
     font-size: 2.3rem;
     font-weight: 500;
 }
 
 .descripcionVino__parrafo{
-    color: #212121;
+    color: var(--traza-descripcion-text);
     font-size: 1.1rem;
     font-weight: 500;
 }
 
 .descripcionVino__lista-trazabilidad{
-    color: #212121;
+    color: var(--traza-descripcion-text);
     font-size: 1.1rem;
     font-weight: 500;
     padding: 10px 0 10px 0;
@@ -88,6 +88,10 @@
 @media screen and (max-height: 800px) {
     .botella-content__imagen{
         padding-top: 100px;
+        width: 250px;
+        height: 430px;
     }
+
+    
 }
 

@@ -101,7 +101,7 @@
 }
 
 .loader{
-    background: #212121;
+    background: var(--background-loader-full-screen);
     width: 100%;
     height: 100vh;
     display: flex;
