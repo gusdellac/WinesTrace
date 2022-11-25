@@ -1,6 +1,6 @@
 .iframeUbicacion{
     background-color: var(--background-iframe);
-    padding: 5px;
+    padding: 20px 5px;
 }
 
 .iframeUbicacion__mapa{

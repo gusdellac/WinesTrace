@@ -1,0 +1,31 @@
+.indicador-inicio{
+    width: 50vw;
+    display: flex;
+    position: fixed;
+    justify-content: flex-start;
+    top: 95%;
+    right: 50%;
+    z-index: 1;
+    
+}
+
+.indicador-inicio__arrow-up{
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.indicador-inicio__arrow-up-fill{
+    fill: var(--indicador-arrow-up-fill);
+}
+
+.indicador-inicio__arrow-up-fill:active{
+    fill: var(--indicador-arrow-up-fill-active);
+    transform: scale(0.90);
+}
+
+
+@media screen and (max-width: 500px) {
+    .indicador-inicio__arrow-up{
+        padding-left: 10px;
+    }
+}

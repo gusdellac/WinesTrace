@@ -4,8 +4,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 5px;
-    padding: 5px;
+    /* gap: 5px; */
+    /* padding: 5px; */
 }
 
 .cards-titulo{
@@ -27,7 +27,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     transition: 0.5s;
 }
 
@@ -75,7 +75,7 @@
 @media screen and (max-width: 900px) {
     .cards{
         grid-template-columns: 1fr;
-        gap: 5px;
+        /* gap: 5px; */
         
     }
 

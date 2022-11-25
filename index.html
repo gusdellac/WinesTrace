@@ -20,8 +20,10 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="./css/scroll-bar/scroll-bar.css" rel="stylesheet">
     <link href="./css/base.css" rel="stylesheet">
+    <link href="./css/about/about.css" rel="stylesheet">
+    <link href="./css/indicador-inicio/indicador-inicio.css" rel="stylesheet">
     <title>WinesTrace</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/logoWTgrey.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/logoWTred.png">
 </head>
 <body>
     <div class="lds-roller loader" id="loader">
@@ -37,7 +39,6 @@
         </div>
         
     </div>
-   
     <header class="header">
         <div class="header__menuNav">
             <label for="btn-menu" class="header__menuNav-menuIcon"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
@@ -56,7 +57,8 @@
                 <nav>
                     <a href="#">Iniciar Sesión</a>
                     <a href="#">Registrarse</a>
-                    <a href="#">Sobre Nosotros</a>
+                    <a href="#servicios">Servicios</a>
+                    <a href="#about-content">Sobre Nosotros</a>
                     <a href="#">Contacto</a>
                     <a href="./qr-generado.html">QR</a>
                 </nav>
@@ -69,7 +71,7 @@
 
     </header>    
     <!--section banner-->
-    <section class="banner">
+    <section class="banner" id="banner">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -106,8 +108,14 @@
         </div>
     </section>
     
+    <div class="indicador-inicio">
+        <a href="#banner" class="indicador-inicio__arrow-up"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
+            <path  class="indicador-inicio__arrow-up-fill" d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0z"/>
+          </svg></a>
+    </div>
+
     <main>
-        <section class="servicios">
+        <section class="servicios" id="servicios">
             <div class="servicios__content" data-aos="fade-right"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine">
@@ -210,12 +218,43 @@
             </div>
         </section>
 
+        <section class="about-content" id="about-content">
+            <div class="about__titulo" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+                <h3 class="about__titulo-text">Sobre nosotros</h3>
+            </div>
+            
+            <div class="about__text"  data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+                <p class="about__text-descripcion">
+                    Somos un grupo de estudiantes de la carrera Tecnicatura universitaria en Programación UTN Regional San Rafael.
+                    Este proyecto comienza a partir de un trabajo integrador de la materia estadística, en donde se nos
+                    presentó un hackaton el cual consistía en la elección de una TIC que se enmarque en los objetivos de
+                    desarrollo sostenible (ODS).
+                </p>
+            </div>
+            
+            <div class="about__text"  data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+                <p class="about__text-descripcion">
+                    Nuestra elección fué Blockchain, aplicado al sector vitivinícola.
+                    La cadena de bloques permite almacenar datos de forma segura y transparente,
+                    no permitiendo modificaciones una vez ingresados y accesible para toda persona
+                    u organización que desee verificarlos.
+                </p>
+            </div>
+            
+        </section>
+
         <section class="iframeUbicacion">
             <iframe class="iframeUbicacion__mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13136.41626698019!2d-68.327799!3d-34.6015299!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967907e0b54bba47%3A0x2a273dff37a0817c!2sUTN%20-%20Facultad%20Regional%20San%20Rafael!5e0!3m2!1ses-419!2sar!4v1668719793231!5m2!1ses-419!2sar" 
             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div>
 
         </div>
