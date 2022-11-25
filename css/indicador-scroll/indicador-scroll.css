@@ -1,0 +1,17 @@
+.indicador-scroll{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    top: 105%;
+}
+
+.indicador-scroll__fill{
+    fill: var(--servicios-text-icon-fill);
+}
+
+@media screen and (max-width: 1150px) {
+    .indicador-scroll{
+        display: none;
+    }
+}

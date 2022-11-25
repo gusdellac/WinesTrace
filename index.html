@@ -22,6 +22,7 @@
     <link href="./css/base.css" rel="stylesheet">
     <link href="./css/about/about.css" rel="stylesheet">
     <link href="./css/indicador-inicio/indicador-inicio.css" rel="stylesheet">
+    <link href="./css/indicador-scroll/indicador-scroll.css" rel="stylesheet">
     <title>WinesTrace</title>
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/icons/logoWTred.png">
 </head>
@@ -107,8 +108,14 @@
             </button>
         </div>
     </section>
-    
-    <div class="indicador-inicio">
+    <div class="indicador-scroll" data-aos="fade-right">
+        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-chevron-compact-down" viewBox="0 0 16 16">
+            <path class="indicador-scroll__fill" fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/>
+        </svg>
+    </div>
+    <div class="indicador-inicio" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
         <a href="#banner" class="indicador-inicio__arrow-up"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
             <path  class="indicador-inicio__arrow-up-fill" d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0z"/>
           </svg></a>

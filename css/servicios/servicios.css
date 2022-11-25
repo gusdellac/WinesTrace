@@ -59,7 +59,9 @@
 }
 
 @media screen and (max-width: 400px) {
+    
     .servicios{
+        height: auto;
         grid-template-columns: 1fr;
     }
 
