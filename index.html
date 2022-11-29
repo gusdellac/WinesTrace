@@ -42,24 +42,24 @@
     </div>
     <header class="header">
         <div class="header__menuNav">
-            <label for="btn-menu" class="header__menuNav-menuIcon"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <label for="btn-menu" class="header__menuNav-menuIcon" id="menuNav-icono"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                 <path class="header__menuNav-menuIcon-hover" fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
               </svg></label>
         </div>
         <h1 class="header__titulo">WinesTrace</h1>
         <div class="header__logo">
-            <img class="header__logo-icono" src="./assets/icons/logoWinesTrace.png">
+            <img class="header__logo-icono" src="#">
         </div>
         
         
         <input type="checkbox" id="btn-menu">
-        <div class="header__menuDesplegable">
+        <div class="header__menuDesplegable" id="menuNav-desplegable">
             <div class="header__menuDesplegable-items">
                 <nav>
                     <a href="#">Iniciar Sesión</a>
                     <a href="#">Registrarse</a>
-                    <a href="#servicios">Servicios</a>
-                    <a href="#about-content">Sobre Nosotros</a>
+                    <a href="#servicios" id="menuNav-servicios">Servicios</a>
+                    <a href="#about-content" id="menuNav-sobre-nosotros">Sobre Nosotros</a>
                     <a href="#">Contacto</a>
                     <a href="./qr-generado.html">QR</a>
                 </nav>
@@ -294,6 +294,7 @@
         crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>AOS.init();</script>
+    <script src="script/cierre-menu-nav.js"></script>
 
 </body>
 </html>
