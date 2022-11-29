@@ -5,6 +5,7 @@
     grid-template-columns: 1fr 3fr 1fr;
     align-items: center;
     text-align: center;
+    box-shadow: rgba(40, 40, 40, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
 
 .powered__content-text{

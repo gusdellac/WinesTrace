@@ -1,4 +1,9 @@
-
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: var(--carousel-control-icons);
+    border-radius: 50%;
+    background-size: 21px;
+  
+}
 .carousel__banner-primero{
     background: url(../assets/img/img-banner/the-one-wine-glass-with-red-wine-against-white.jpg) no-repeat center / cover;
     width: 100%;

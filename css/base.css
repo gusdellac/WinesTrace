@@ -15,6 +15,8 @@
     --menu-desplegable-flecha-cierre-fill-activate: #424242; 
 
     /*main*/
+    --carousel-control-icons: #6161615c;
+
     --background-servicios: #F5F5F5;
     --servicios-text: #212121;
     --servicios-text-icon-fill: #616161;
@@ -52,5 +54,5 @@
     --background-scroll-bar-thumb-hover:#9E9E9E;
 
     /*fonts*/
-    --montserrat: "Montserrat", sans-serif;
+    --montserrat: "Montserrat", sans-serif; 
 }

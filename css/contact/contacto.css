@@ -1,0 +1,127 @@
+.contacto{
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 4fr;
+    background: #F5F5F5;
+}
+
+
+.contacto__titulo{
+    padding: 30px 15px;
+    text-align: center;   
+}
+
+.contacto__titulo-text{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.contacto__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contacto__telefono{
+    grid-column: 1/2;
+    text-align: center;
+    padding: 20px;
+}
+
+.contacto__telefono-titulo, .contacto__email-titulo{
+    padding: 10px 0;
+    font-size: 1.5rem;
+    color: #8a0404;
+    
+}
+
+.contacto__telefono-text{
+    font-size: 1.2rem;
+}
+
+.contacto__email{
+    grid-column: 2/2;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.contacto__email-text{
+    font-size: 1.2rem;
+}
+
+.contacto__email-ancla{
+    text-decoration: none;   
+    color: #212121; 
+}
+
+
+
+.contacto__telefono-icon{
+    padding-right: 5px;
+}
+
+.contacto__whastapp-ancla{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #212121;
+}
+
+.whatsapp-icon{
+    padding-right: 5px;
+}
+
+.whatsapp-icon-fill{
+    color: #14b502;
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+    .contacto{
+        height: 400px;
+    }
+    .contacto__content{
+        display: block;
+
+    }
+
+    .contacto__telefono{
+        padding: 10px;
+    }
+    .contacto__email{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .contacto{
+        height: 400px;
+    }
+    .contacto__titulo-text{
+        font-size: 1.7rem;
+    }
+
+    .contacto__telefono-titulo{
+        font-size: 1.1rem;
+    }
+    .contacto__telefono-text{
+        font-size: 0.8rem;
+    }
+
+    .contacto__email-titulo{
+        font-size: 1.1rem;
+    }
+    .contacto__email-text{
+        font-size: 0.8rem;
+    }
+
+    .contacto__whastapp-text{
+        font-size: 0.8rem;
+    }
+
+    .contacto__whastapp-ancla{
+        font-size: 0.8rem;
+    }
+}
