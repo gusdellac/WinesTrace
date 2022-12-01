@@ -15,6 +15,7 @@
     padding: 0 30px 10px 0;
     align-items: center;
     justify-content: end;
+    display: none;
 }
 .header__logo-icono{
     width: 60px;
