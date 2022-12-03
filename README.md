@@ -1,6 +1,6 @@
 ## WinesTrace
 
-###Proyecto para Hackaton UTN 2022.
+####Proyecto para Hackaton UTN 2022
 
 Este proyecto comienza a partir de un trabajo integrador de la materia estadística, en donde se nos presentó un hackaton el cual consistía en la elección de una TIC que se enmarque dentro de los objetivos de desarrollo sostenible (ODS).
 
