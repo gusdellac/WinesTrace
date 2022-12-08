@@ -45,6 +45,7 @@
 
 .botella-content__imagen{
     padding: 10px;
+    border-radius: 20px;
 }
 
 @media screen and (max-width: 1300px) {
@@ -86,7 +87,7 @@
 
 @media screen and (max-height: 800px) {
     .botella-content__imagen{
-        padding-top: 100px;
+        /* padding-top: 100px; */
         width: 250px;
         height: 430px;
     }
